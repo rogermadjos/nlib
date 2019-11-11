@@ -1,0 +1,9 @@
+[package]
+name = "nlib"
+version = "0.1.0"
+authors = ["Roger Madjos <roger.madjos@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rand = { version = "0.7", features = ["small_rng"] }
+rand_distr = "0.2"
